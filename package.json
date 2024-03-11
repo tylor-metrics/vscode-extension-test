@@ -17,7 +17,15 @@
         "command": "test.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "terminal": {
+      "profiles": [
+        {
+            "title": "My Custom Terminal Profile With Bare Minimum Config",
+            "id": "my-custom-terminal"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
